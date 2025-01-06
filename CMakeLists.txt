@@ -3,7 +3,7 @@ project(pong)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp bat.h bat.cpp)
 add_executable(pong ${SOURCE_FILES})
 
 set(CMAKE_PREFIX_PATH /opt/homebrew/Cellar/sfml/2.6.2)
