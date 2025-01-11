@@ -35,6 +35,7 @@ void Bat::stopRight()
 {
   m_Moving_Right = false;
 }
+
 void Bat::update(sf::Time dt)
 {
   if (m_Moving_Left)
@@ -47,5 +48,3 @@ void Bat::update(sf::Time dt)
   }
   m_Shape.setPosition(m_Position);
 }
-
-
