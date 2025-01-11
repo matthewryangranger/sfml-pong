@@ -39,12 +39,8 @@ void Bat::stopRight()
 void Bat::update(sf::Time dt)
 {
   if (m_Moving_Left)
-  {
     m_Position.x -= m_Speed * dt.asSeconds();
-  }
   if (m_Moving_Right)
-  {
     m_Position.x += m_Speed * dt.asSeconds();
-  }
   m_Shape.setPosition(m_Position);
 }
